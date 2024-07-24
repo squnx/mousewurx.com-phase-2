@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+  <head>
+    <title>:: mousewurx ::</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+
+    <!-- Lightbox v2.6 -->
+    <link href="css/lightbox2.6/lightbox.css" rel="stylesheet">
+
+    <!-- MixItUp Assets -->
+    <link href="css/mixitup/mixitup.css" rel="stylesheet">
+    
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300" rel="stylesheet" />
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="index.html" class="navbar-logo"><img src="images/logo.png" /></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="quote.html">Get Quote</a></li>
+          </ul>
+        </div>
+      </div><!-- /container -->
+    </div>
+    
+    <div class="container">
+      <!-- 8x4 row of columns -->
+      <div class="row" id="rowshadow">
+        <div class="col-lg-8 col-sm-8">
+          <h4>Welcome to <span>Ivan's</span> Portfolio</h4>
+          <p><img src="images/pic-ivan.png" class="img-thumbnail pic-ivan">Hello, I am a full service web developer who creates simple, clean, effective websites that get results with user-interface solutions. I work with your visions and goals to optimize Your business/product through your website. Having been experienced with smail, mid-size, large enterprise clients including leading entertainment and technology companies, my skill-set, attention to detail and standards of quality & integrity are very high.</p>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+          <h4>Client Experience</h4>
+          <div id="testimonials" style="padding-bottom:8px;">
+            <ul>
+              <li><img src="images/clients1.png" class="clients" alt="Client Experience"></li>
+              <li><img src="images/clients2.png" class="clients" alt="Client Experience"></li>
+              <li><img src="images/clients3.png" class="clients" alt="Client Experience"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 12 row of columns -->
+      <div class="row" id="rowshadow">
+        <div class="col-lg-12 col-sm-12">
+          <h4>I Don't Always Get What I Want... <span style="font-size:16px;">But&nbsp;My&nbsp;Clients&nbsp;Do!</span></h4>
+          
+          <!-- FILTER CONTROLS -->
+          <div class="controls">	
+            <p style="display:inline;">Filter by Category:</p>
+            <ul style="display:inline;">
+              <li class="filter" data-filter="all">All</li>
+              <li class="filter" data-filter="1_entertain">Entertainment</li>
+              <li class="filter" data-filter="2_technology">Technology</li>
+              <li class="filter" data-filter="3_miscellaneous">Miscellaneous</li>
+              <li class="filter" data-filter="4_eblast">eBlast</li>
+              <!-- <li class="filter" data-filter="1_entertain 2_technology">Category 1 &amp; 3</li> -->
+            </ul><br>
+            <p style="display:inline;">Filter by Timeline:</p>
+            <ul style="display:inline;">
+              <li class="sort active" data-sort="default" data-order="desc">Default</li>
+              <li class="sort" data-sort="data-cat" data-order="desc">2000~13</li>
+              <li class="sort" data-sort="data-cat" data-order="asc">2013~00</li>
+            </ul>
+          </div>
+          
+          <ul id="Grid">
+            <li class="mix 2_technology 4_eblast" data-cat="37">
+              <div>
+                <img src="images/projects/thumbs/plantronics.jpg" title="Plantronics, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/plantronics.jpg" data-lightbox="portfolio" title="Plantronics, Inc. 2012-2013"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://mousewurx.com/portfolio/plantronics/Contact_Center_Email_1208/ContactCenter_General.html" target="_new" title="Plantronics, Inc. 2012-2013"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Plantronics, Inc. 2012-2013</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="36">
+              <div>
+                <img src="images/projects/thumbs/cetera.jpg" title="Cetera Finance Group">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/cetera.jpg" data-lightbox="portfolio" title="Cetera Finance Group 2013"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://cetera.mousewurx.com/BrokerDealerCenter_CFS/Portal/29338253.asp" target="_new" title="Cetera Finance Group 2013"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Cetera Finance Group 2013</h5></center>
+              </div>
+            </li>
+            <li class="mix 1_entertain" data-cat="35">
+              <div>
+                <img src="images/projects/thumbs/bellinity.jpg" title="Bellinity, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/bellinity.jpg" data-lightbox="portfolio" title="BELLINITY, Inc. 2013"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://bellinity.mousewurx.com/" target="_new" title="BELLINITY, Inc. 2013"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">BELLINITY 2013</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 3_miscellaneous" data-cat="34">
+              <div>
+                <img src="images/projects/thumbs/gasp.jpg" title="The Gasp Company">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/gasp.jpg" data-lightbox="portfolio" title="The Gasp Company 2013"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://thegaspcompany.com/" target="_new" title="The Gasp Company 2013"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">The Gasp Company 2013</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="33">
+              <div>
+                <img src="images/projects/thumbs/selfhelpworks.jpg" title="SelfHelpWorks, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/selfhelpworks.jpg" data-lightbox="portfolio" title="Self Help Works 2012"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://selfhelpworks.mousewurx.com/" target="_new" title="Self Help Works 2012"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Self Help Works 2012</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="32">
+              <div>
+                <img src="images/projects/thumbs/smartCommunications.jpg" title="Smart Communications, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/smartCommunications.jpg" data-lightbox="portfolio" title="Smart Communications, Inc. 2012"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://www.creativityatwork.org/" target="_new" title="Smart Communications, Inc. 2012"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">Smart Communications, Inc. 2012</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous 4_eblast" data-cat="31">
+              <div>
+                <img src="images/projects/thumbs/oicNewsletter.jpg" title="Objective Integrated Communications">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/oicNewsletter.jpg" data-lightbox="portfolio" title="OIC Newsletters 2012-2013"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/13OI008.02-OIC Newsletter-13.0030/oic-nwsltr-13-0130.html" target="_new" title="OIC Newsletters 2012-2013"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">OIC Newsletters 2012-2013</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="30">
+              <div>
+                <img src="images/projects/thumbs/ObamaSuperpac.jpg" title="Smart Communications, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/ObamaSuperpac.jpg" data-lightbox="portfolio" title="Obama Superpac 2012"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://obamasuperpac.com/" target="_new" title="Obama Superpac 2012"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">Obama Superpac 2012</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="29">
+              <div>
+                <img src="images/projects/thumbs/ByronWagner.jpg" title="Byron Wagner">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/ByronWagner.jpg" data-lightbox="portfolio" title="Byron Wagner 2012"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://byrondw.com/" target="_new" title="Byron Wagner 2012"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">Byron Wagner 2012</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="28">
+              <div>
+                <img src="images/projects/thumbs/virtu.jpg" title="Virtu Wood Flooring">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/virtu.jpg" data-lightbox="portfolio" title="Virtu Floors 2011"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://virtufloors.com/" target="_new" title="Blog Virtu  2011"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">Virtu Floors 2011</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="27">
+              <div>
+                <img src="images/projects/thumbs/blog.virtu.jpg" title="Virtu Wood Flooring">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/blog.virtu.jpg" data-lightbox="portfolio" title="Blog Virtu  2011"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://blog.virtufloors.com/" target="_new" title="Blog Virtu  2011"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">Blog Virtu  2011</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="26">
+              <div>
+                <img src="images/projects/thumbs/fxvip.jpg" title="FXVIP Services">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/fxvip.jpg" data-lightbox="portfolio" title="FXVIP Services 2011"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://fxvipservice.com/" target="_new" title="FXVIP Services 2011"><img src="images/icon-link.png" title="Live Link"></a>
+                </div>
+                <center><h5 class="title">FXVIP Services 2011</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 4_eblast" data-cat="25">
+              <div>
+                <img src="images/projects/thumbs/dnb.jpg" title="Dun & Bradstreet, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/dnb.jpg" data-lightbox="portfolio" title="Dun & Bradstreet, Inc. 2010"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/10.DNB.005.Webcast%20Email%20Template/" target="_new" title="Dun & Bradstreet, Inc. 2010"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">D&B Webcast 2010</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 4_eblast" data-cat="24">
+              <div>
+                <img src="images/projects/thumbs/OracleUnifiedStorageWebcast.jpg" title="Oracle Corporation">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/OracleUnifiedStorageWebcast.jpg" data-lightbox="portfolio" title="ORACLE Unified Storage Webcast 2010"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/10.OAI.067.Unified%20Storage%20Webcast%20Eblast/" target="_new" title="ORACLE Unified Storage Webcast 2010"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">ORACLE Unified Storage Webcast 2010</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="23">
+              <div>
+                <img src="images/projects/thumbs/wpss.jpg" title="Western Pacific Storage Solutions">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/wpss.jpg" data-lightbox="portfolio" title="Western Pacific Storage Solutions 2009"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://wpss.thegaspcompany.com/" target="_new" title="Western Pacific Storage Solutions 2009"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">WPSS 2009</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="22">
+              <div>
+                <img src="images/projects/thumbs/SunSolarisWebEvent.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunSolarisWebEvent.jpg" data-lightbox="portfolio" title="Sun Solaris Web Event 2008"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://08smi122.mousewurx.com/" target="_new" title="Sun Solaris Web Event 2008"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Sun Solaris Web Event 2008</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous 4_eblast" data-cat="21">
+              <div>
+                <img src="images/projects/thumbs/NestlePoweBar.jpg" title="Nestl&eacute;">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/NestlePoweBar.jpg" data-lightbox="portfolio" title="Nestl&eacute; PowerBar Events 2008"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/08.Nestle.eBlast/powerbar.html" target="_new" title="Nestl&eacute; PowerBar Events 2008"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Nestl&eacute; PowerBar Events 2008</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="20">
+              <div>
+                <img src="images/projects/thumbs/SunAnalystSummit.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunAnalystSummit.jpg" data-lightbox="portfolio" title="Sun Analyst Summit 2008"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://08smi002.mousewurx.com/sas2008.html" target="_new" title="Sun Analyst Summit 2008"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Sun Analyst Summit 2008</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 4_eblast" data-cat="19">
+              <div>
+                <img src="images/projects/thumbs/SerenaMashup.jpg" title="Serena Software, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SerenaMashup.jpg" data-lightbox="portfolio" title="Serena Mashup Composer 2007"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/07.SER.117.SerenaVailMashupEmailTemplate/SERENA_VailmashupEblast.html" target="_new" title="Serena Mashup Composer 2007"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Serena Mashup Composer 2007</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="18">
+              <div>
+                <img src="images/projects/thumbs/SerenaXChange.jpg" title="Serena Software, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SerenaXChange.jpg" data-lightbox="portfolio" title="Serena xChange 2007"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://07ser005.mousewurx.com/" target="_new" title="Serena xChange 2007"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Serena xChange 2007</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 4_eblast" data-cat="17">
+              <div>
+                <img src="images/projects/thumbs/nec.jpg" title="NEC Corporation of America">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/nec.jpg" data-lightbox="portfolio" title="NEC Marketing Program 2007"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/07.NEC.004.MarketingProgram/03_nec_eblast.html" target="_new" title="NEC Marketing Program 2007"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">NEC Marketing Program 2007</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 3_miscellaneous 4_eblast" data-cat="16">
+              <div>
+                <img src="images/projects/thumbs/oic.jpg" title="Objective Integrated Communications">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/oic.jpg" data-lightbox="portfolio" title="Objective Integrated Communications 2006"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/" target="_new" title="Objective Integrated Communications 2006"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">OIC 2006</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="15">
+              <div>
+                <img src="images/projects/thumbs/SunJavaBusiness.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunJavaBusiness.jpg" data-lightbox="portfolio" title="Java Business Integration 2005"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://sunmicrosystems.mousewurx.com/05.SMI.062.JBISDKCD/" target="_new" title="Java Business Integration 2005"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Java Business Integration 2005</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 3_miscellaneous" data-cat="14">
+              <div>
+                <img src="images/projects/thumbs/att.jpg" title="AT&T Wireless">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/att.jpg" data-lightbox="portfolio" title="AT&T Wireless 2004"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://att.mousewurx.com/" target="_new" title="AT&T Wireless 2004"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">AT&T Wireless 2004</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="13">
+              <div>
+                <img src="images/projects/thumbs/SunOpenStorage.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunOpenStorage.jpg" data-lightbox="portfolio" title="Sun Open Storage Solutions 2004"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://08smi028.mousewurx.com/" target="_new" title="Sun Open Storage Solutions 2004"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Sun Open Storage Solutions 2004</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="12">
+              <div>
+                <img src="images/projects/thumbs/ArtInstitute.jpg" title="Art Institute of California-Los Angeles">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/ArtInstitute.jpg" data-lightbox="portfolio" title="Art Institute of California-Los Angeles 2004"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://oic.mousewurx.com/04.AI.014.Microsite/" target="_new" title="Art Institute of California-Los Angeles 2004"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Art Institute of L.A. 2004</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="11">
+              <div>
+                <img src="images/projects/thumbs/SunMcLaren.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunMcLaren.jpg" data-lightbox="portfolio" title="Sun's McLaren Cyber Cafe 2003"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://mousewurx.com/portfolio/SunMicrosystems/03.SMI.807.McClaren/" target="_new" title="Sun's McLaren Cyber Cafe 2003"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Sun's McLaren Cyber Cafe 2003</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="10">
+              <div>
+                <img src="images/projects/thumbs/infusient.jpg" title="Infusient">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/infusient.jpg" data-lightbox="portfolio" title="Infusient 2002"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://mousewurx.com/portfolio/imfusient/" target="_new" title="Infusient 2002"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Infusient 2002</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology" data-cat="9">
+              <div>
+                <img src="images/projects/thumbs/SunV-Force.jpg" title="Sun Microsystems, Inc.">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/SunV-Force.jpg" data-lightbox="portfolio" title="V-Force Training CD 2002"><img src="images/icon-zoom.png" title="Zoom In"></a>
+                </div>
+                <center><h5 class="title">V-Force Training CD 2002</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="8">
+              <div>
+                <img src="images/projects/thumbs/aquifur.jpg" title="Aquifur Mineral Water">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/aquifur.jpg" data-lightbox="portfolio" title="Aquifur Mineral Water 2001"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://aquifur.mousewurx.com/" target="_new" title="Aquifur Mineral Water 2001"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Aquifur Mineral Water 2001</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="7">
+              <div>
+                <img src="images/projects/thumbs/ambassador.jpg" title="Ambassador Spa Hotel">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/ambassador.jpg" data-lightbox="portfolio" title="Ambassador Spa Hotel 2001"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://ambassadorspa.mousewurx.com/" target="_new" title="Ambassador Spa Hotel 2001"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Ambassador Spa Hotel 2001</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="6">
+              <div>
+                <img src="images/projects/thumbs/guyschmidt.jpg" title="Guyschmidt">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/guyschmidt.jpg" data-lightbox="portfolio" title="Guyschmidt 2001"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://guyschmidt.mousewurx.com/" target="_new" title="Guyschmidt 2001"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Guyschmidt 2001</h5></center>
+              </div>
+            </li>
+            <li class="mix 2_technology 3_miscellaneous 4_eblast" data-cat="5">
+              <div>
+                <img src="images/projects/thumbs/procorp.jpg" title="Procorp Web Studio">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/procorp.jpg" data-lightbox="portfolio" title="Procorp Web Studio 2001"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://procorp.mousewurx.com/" target="_new" title="Procorp Web Studio 2001"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Procorp Web Studio 2001</h5></center>
+              </div>
+            </li>
+            <li class="mix 3_miscellaneous" data-cat="4">
+              <div>
+                <img src="images/projects/thumbs/reycrest.jpg" title="Rey-Crest">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/reycrest.jpg" data-lightbox="portfolio" title="Rey-Crest 2001"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://reycrest.mousewurx.com/" target="_new" title="Rey-Crest 2001"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Rey-Crest 2001</h5></center>
+              </div>
+            </li>
+            <li class="mix 1_entertain" data-cat="3">
+              <div>
+                <img src="images/projects/thumbs/stanleemedia.jpg" title="Stan Lee Media">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/stanleemedia.jpg" data-lightbox="portfolio" title="Stan Lee Media 2000"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://stanleemedia.mousewurx.com/" target="_new" title="Stan Lee Media 2000"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Stan Lee Media 2000</h5></center>
+              </div>
+            </li>
+            <li class="mix 1_entertain" data-cat="2">
+              <div>
+                <img src="images/projects/thumbs/backstreetprojects.jpg" title="Back Street Project">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/backstreetprojects.jpg" data-lightbox="portfolio" title="Back Street Project 2000"><img src="images/icon-zoom.png" title="Zoom In"></a> &nbsp;
+                  <a href="http://bsp.mousewurx.com/" target="_new" title="Back Street Project 2000"><img src="images/icon-link.png" title="Dev Link"></a>
+                </div>
+                <center><h5 class="title">Stan Lee Media 2000</h5></center>
+              </div>
+            </li>
+            <li class="mix 1_entertain" data-cat="1">
+              <div>
+                <img src="images/projects/thumbs/hollywood.jpg" title="HOLLYWOOD.COM">
+                <div class="thumbs-zoom">
+                  <a href="images/projects/large/hollywood.jpg" data-lightbox="portfolio" title="HOLLYWOOD.COM 1999"><img src="images/icon-zoom.png" title="Zoom In"></a>
+                </div>
+                <center><h5 class="title">HOLLYWOOD.COM 1999</h5></center>
+              </div>
+            </li>
+            <li class="gap"></li>
+            <li class="gap"></li><!-- "gap" elements fill in the gaps in justified grid -->
+          </ul>
+         
+        </div>
+      </div>
+    </div><!-- /container -->
+
+    <footer>
+      <div class="container"><!-- 12 row of columns -->
+        <div class="row" style="background:url(images/bg_portfolio.png) no-repeat center bottom;">
+          <div class="col-lg-12 col-sm-12">
+            <div class="footerL">Coptyright &copy; 2013 &nbsp; :: <span class="mousewurx">mousewurx</span> ::</div>
+            <div class="footerR"><a href="mailto:info@mousewurx.com">info@mousewurx.com</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    
+    <!-- MixItUp Carousel -->
+    <script type="text/javascript" src="js/mixitup/jquery.mixitup.min.js"></script>
+		<script type="text/javascript">
+		
+			/* 
+			*	We would normally recommend that all JavaScript is kept in a seperate .js file,
+			* 	but we have included it in the document head for convenience.
+			*/
+			
+			// INSTANTIATE MIXITUP
+		
+			$(function(){
+				$('#Grid').mixitup();
+			});
+			
+		</script>
+    
+    <!-- Lightbox v2.6 -->
+    <script src="js/lightbox2.6/lightbox-2.6.min.js"></script>
+    
+    <!-- Testimonials -->
+    <script type="text/javascript">
+		$(function(){
+			var items = (Math.floor(Math.random() * ($('#testimonials li').length)));
+			$('#testimonials li').hide().eq(items).show();
+	
+		function next(){
+			$('#testimonials li:visible').delay(5000).fadeOut('slow',function(){
+				$(this).appendTo('#testimonials ul');
+				$('#testimonials li:first').fadeIn('slow',next);
+				});
+			}
+			next();
+		});
+    </script>
+
+  </body>
+</html>

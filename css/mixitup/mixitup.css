@@ -1,0 +1,68 @@
+
+.controls{
+	display: inline-block;
+	margin: 0 0 10px 0;
+	vertical-align: top;
+}
+
+.controls li{
+	margin-left: 10px;
+	display:inline;
+	cursor: pointer;
+	list-style-type:disc;
+	color:#0055aa;
+}
+
+.controls li.active{
+	font-weight: 600;
+}
+
+.controls li:hover {
+    color:#428bca;
+}
+
+#Grid{
+	text-align: justify;
+	font-size: 0.1px;
+}
+@media screen and (max-width: 480px) {
+  #Grid{
+	text-align: center;
+}
+}
+
+#Grid:after{
+	width: 100%;
+}
+
+#Grid li{
+  width:: 100%;
+}
+
+#Grid div{
+  background: url(../../images/thumbs_top.gif) repeat-x;
+  padding-top: 9px;
+}
+#Grid img{
+  background: url(../../images/thumbs_bottom.gif) repeat-x bottom;
+  padding-bottom: 9px;
+	width: 300px;
+	height: auto;
+	text-align: center;
+}
+#Grid .mix{
+	display: none;
+	opacity: 0;
+	height: auto;
+	vertical-align: top;
+	margin-top: 10px;
+	color: #fff;
+	
+	font-size: 30px;
+	text-align: center;
+}
+
+#Grid .gap{
+	display: inline-block;
+	width: 300px;
+}
